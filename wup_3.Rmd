@@ -42,7 +42,11 @@ The median and first/third percentiles for the "Back" seat boxplot are significa
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=davisdata)
+```
 
+Though the middle row had the most people (n=83), the "Back" row had the highest median, max, Q1/Q3, and mean, suggesting that those in the back had higher levels of alcohol consumption.
 
 ## Inferential Tests
 
