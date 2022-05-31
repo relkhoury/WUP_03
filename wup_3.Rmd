@@ -24,6 +24,8 @@ basicCN <- ggplot(davisdata,aes(y=alcohol,x=Seat))
 ```
 ## Now add in boxplot
 
+
+
 ```{r}
 basicCN + geom_boxplot()
 ```
@@ -35,7 +37,12 @@ basicCN + geom_boxplot()
 basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
 ```
 
+The median and first/third percentiles for the "Back" seat boxplot are significantly higher as compared to   the "Front" and "Middle" seats, including the max.  The "Front" seat data seemed to have the lowest median   and maximum, while the "Middle" data had the most outliers.  The persons in the "Back" seats seemed to   consume more alcohol as compared to the persons in the "Front" and "Middle".   
+
+
 ## Numerical Summarys 
+
+
 
 ## Inferential Tests
 
