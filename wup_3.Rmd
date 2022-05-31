@@ -64,4 +64,5 @@ The Front-Back difference consistently yields a negative number, indicating that
 
 ## Conclusions
 
+By analyzing the boxplots, numerical data, and analysis of variance (TukeyHSD) tests, it's clear that the differences between the back and middle/front rows are significant; therefore, it's logical to presume that those in the back row of the bus consumed more alcohol than their counterparts in the middle and front rows.
 
